@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut.ico" href="img/favicon.ico">
+    <title>Mi Hoja de Vida</title>
+</head>
+<body>
+  <header>
+    <h1>Hoja de Vida Angela Castañeda</h1>
+  </header>
+   <hr>
+   <nav>
+      <a href="Inicio.html">Home</a>
+      <a href="Educacion.html">Educacion</a>
+      <a href="Experiencia.html">Experiencia</a>
+
+   </nav>
+   <hr>
+   <main>
+      <h2>Educacion Recibida</h2>
+      <table border="3">
+          <thead>
+              <tr>
+               <th>Año</th>
+               <th>Intitucion</th>
+               <th>Lugar</th>
+               <th>Estudios</th>
+               <th>¿Culmino?</th>   
+            
+               </tr>
+           </thead>
+        
+           <tbody>
+                 <tr>
+                     <td>2013</td>
+                     <td>Ceipa</td>
+                     <td>Sabaneta</td>
+                     <td>Administradora Financiera</td>
+                     <td>si</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>Escolme</td>
+                        <td>Medellin</td>
+                        <td>Tecnóloga Financiera</td>
+                        <td>si</td>
+                    </tr>
+           </tbody>
+        
+        </table>
+        <br>
+        <form>
+            <fieldset>
+                   <legend>Agregar Estudios</legend>
+                    <h2>Agregar Estudios</h2>
+                    <label for="anos">Año</label>
+                    <select name="anos" required>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                    </select>
+                    <br>
+                    <br>
+                    
+                    <label for="inst"> Intitucion</label>
+                    <input type="text" name="inst" placeholder="Ingrese Institución" required> 
+                    
+                    <br>
+
+                    <input type="number" placeholder="Ingrese su edad">
+                    <br>
+                    <br>
+                    <input type="password" placeholder="Ingrese su contraseña" minlength="1" maxlength="8" required> 
+                    <br>
+                    <br>
+                    <input type="date" placeholder="Ingrese Fecha de Nacimiento">
+                    <br>
+                    <br>
+                    <input type="email" placeholder="ingrese su email">
+                    <br>
+                    <br>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" id="" cols="10" rows="5"></textarea>
+                    <br>
+                    <br>
+                    <input type="radio" name="genero" value="F">Femenino
+                    <input type="radio" name="genero" value="M">Masculion
+                    <input type="radio" name="genero" value="I">Ambiguo 
+                    <br>
+                    <h6>¿Culmino?</h6>  
+                    <input type="checkbox">si</input>
+                    <input type="checkbox">No
+                    <br>
+                    <br>
+                    <input type="submit" name="enviar">
+                    <button onclick="">Enviar</button>
+                               
+               </fieldset>
+                   
+        </form>
+        <br>
+        <form>
+            <fieldset>
+            <legend><h2>Contactenos</h2></legend>
+            <label for="name">Nombre</label>
+             <input type="text" name="name" placeholder="Ingrese su nombre" required>
+             <br>
+             <label for="email"> Email</label>
+             <input type="email" name="mail" placeholder="Ingrese su email" required>
+             <h4>Mensaje</h4>
+             <br>
+             <textarea name="id" cols="30" rows= "10"></textarea>
+             <br>
+             <input type="checkbox"><a href="https://hepex.co">Acepto Términos y Condiciones</a>
+            </fieldset>
+        </form>
+        
+   </main>
+   <hr>
+   <footer>
+     <p>Todos los derechos Reservados 2019 <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome..69i57j69i60l5.2369j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Facebook</a> | <a href="mailto:sistmeas@helpex.co">Escribeme</a></p>
+   </footer>
+    
+</body>
+</html>
